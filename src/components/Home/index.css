@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content-Container {
+  width: 400px;
+  height: 250px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.Login-btn {
+  padding: 8px 20px;
+  background-color: #ffffff;
+  color: #2b2c49;
+  border-radius: 5px;
+  cursor: pointer;
+}
